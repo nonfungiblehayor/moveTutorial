@@ -1,0 +1,20 @@
+---
+compiled_package_info:
+  package_name: Tutorial
+  address_alias_instantiation:
+    std: "00000000000000000000000000000001"
+  source_digest: A41EF47FB3728554017EDFAA36431AC700C6995DB9541291FE3583B8AA3A656E
+  build_flags:
+    dev_mode: true
+    test_mode: true
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+dependencies:
+  - MoveNursery
+  - MoveStdlib

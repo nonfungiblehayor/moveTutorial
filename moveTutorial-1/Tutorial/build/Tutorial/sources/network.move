@@ -11,6 +11,22 @@ module 0x42::network {
         age: u8
     }
 
+    struct Info has drop {
+        name: vector<u8>,
+        owner: vector<u8>
+    }
+
+    public fun getInfoDetail(): Info {
+
+        let sisFirstInfo = 0x42::sisFirst::getInfo();
+        
+        let infos = Info {
+            name: b"Caviar",
+            owner: sisFirstInfo
+        };
+        return infos
+    }
+
     public fun regPeople(detail: Individuals, peopleDetail: &mut People): Individuals {
         let regPeopleDetail = Individuals {
             name: detail.name,

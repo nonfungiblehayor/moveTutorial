@@ -3,7 +3,7 @@ compiled_package_info:
   package_name: Tutorial
   address_alias_instantiation:
     std: "00000000000000000000000000000001"
-  source_digest: 578371678CAF6A9D4A2C56CDF6AE13181D1D66AD904602A062AD9C7233477311
+  source_digest: 3616EA4D37AD669B1AB4367F5CF8764D96F353E3200EB4987F7F549BA87FAED4
   build_flags:
     dev_mode: false
     test_mode: false
